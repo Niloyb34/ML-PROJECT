@@ -43,28 +43,28 @@ if (selected == 'Diabetes Prediction'):
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        Pregnancies = st.text_input('Number of Pregnancies')
+        Pregnancies = st.number_input('Number of Pregnancies')
         
     with col2:
-        Glucose = st.text_input('Glucose Level')
+        Glucose = st.number_input('Glucose Level')
     
     with col3:
-        BloodPressure = st.text_input('Blood Pressure value')
+        BloodPressure = st.number_input('Blood Pressure value')
     
     with col1:
-        SkinThickness = st.text_input('Skin Thickness value')
+        SkinThickness = st.number_input('Skin Thickness value')
     
     with col2:
-        Insulin = st.text_input('Insulin Level')
+        Insulin = st.number_input('Insulin Level')
     
     with col3:
-        BMI = st.text_input('BMI value')
+        BMI = st.number_input('BMI value')
     
     with col1:
-        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
+        DiabetesPedigreeFunction = st.number_input('Diabetes Pedigree Function value')
     
     with col2:
-        Age = st.text_input('Age of the Person')
+        Age = st.number_input('Age of the Person')
     
     
     # code for Prediction
@@ -94,43 +94,43 @@ if (selected == 'Heart Disease Prediction'):
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        age = st.text_input('Age')
+        age = st.number_input('Age')
         
     with col2:
-        sex = st.text_input('Sex')
+        sex = st.number_input('Sex')
         
     with col3:
-        cp = st.text_input('Chest Pain types')
+        cp = st.number_input('Chest Pain types')
         
     with col1:
-        trestbps = st.text_input('Resting Blood Pressure')
+        trestbps = st.number_input('Resting Blood Pressure')
         
     with col2:
-        chol = st.text_input('Serum Cholestoral in mg/dl')
+        chol = st.number_input('Serum Cholestoral in mg/dl')
         
     with col3:
-        fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
+        fbs = st.number_input('Fasting Blood Sugar > 120 mg/dl')
         
     with col1:
-        restecg = st.text_input('Resting Electrocardiographic results')
+        restecg = st.number_input('Resting Electrocardiographic results')
         
     with col2:
-        thalach = st.text_input('Maximum Heart Rate achieved')
+        thalach = st.number_input('Maximum Heart Rate achieved')
         
     with col3:
-        exang = st.text_input('Exercise Induced Angina')
+        exang = st.number_input('Exercise Induced Angina')
         
     with col1:
-        oldpeak = st.text_input('ST depression induced by exercise')
+        oldpeak = st.number_input('ST depression induced by exercise')
         
     with col2:
-        slope = st.text_input('Slope of the peak exercise ST segment')
+        slope = st.number_input('Slope of the peak exercise ST segment')
         
     with col3:
-        ca = st.text_input('Major vessels colored by flourosopy')
+        ca = st.number_input('Major vessels colored by flourosopy')
         
     with col1:
-        thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
+        thal = st.number_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
         
      
@@ -162,70 +162,70 @@ if (selected == "Parkinsons Prediction"):
     col1, col2, col3, col4, col5 = st.columns(5)  
     
     with col1:
-        fo = st.text_input('MDVP:Fo(Hz)')
+        fo = st.number_input('MDVP:Fo(Hz)')
         
     with col2:
-        fhi = st.text_input('MDVP:Fhi(Hz)')
+        fhi = st.number_input('MDVP:Fhi(Hz)')
         
     with col3:
-        flo = st.text_input('MDVP:Flo(Hz)')
+        flo = st.number_input('MDVP:Flo(Hz)')
         
     with col4:
-        Jitter_percent = st.text_input('MDVP:Jitter(%)')
+        Jitter_percent = st.number_input('MDVP:Jitter(%)')
         
     with col5:
-        Jitter_Abs = st.text_input('MDVP:Jitter(Abs)')
+        Jitter_Abs = st.number_input('MDVP:Jitter(Abs)')
         
     with col1:
-        RAP = st.text_input('MDVP:RAP')
+        RAP = st.number_input('MDVP:RAP')
         
     with col2:
-        PPQ = st.text_input('MDVP:PPQ')
+        PPQ = st.number_input('MDVP:PPQ')
         
     with col3:
-        DDP = st.text_input('Jitter:DDP')
+        DDP = st.number_input('Jitter:DDP')
         
     with col4:
-        Shimmer = st.text_input('MDVP:Shimmer')
+        Shimmer = st.number_input('MDVP:Shimmer')
         
     with col5:
-        Shimmer_dB = st.text_input('MDVP:Shimmer(dB)')
+        Shimmer_dB = st.number_input('MDVP:Shimmer(dB)')
         
     with col1:
-        APQ3 = st.text_input('Shimmer:APQ3')
+        APQ3 = st.number_input('Shimmer:APQ3')
         
     with col2:
-        APQ5 = st.text_input('Shimmer:APQ5')
+        APQ5 = st.number_input('Shimmer:APQ5')
         
     with col3:
-        APQ = st.text_input('MDVP:APQ')
+        APQ = st.number_input('MDVP:APQ')
         
     with col4:
-        DDA = st.text_input('Shimmer:DDA')
+        DDA = st.number_input('Shimmer:DDA')
         
     with col5:
-        NHR = st.text_input('NHR')
+        NHR = st.number_input('NHR')
         
     with col1:
-        HNR = st.text_input('HNR')
+        HNR = st.number_input('HNR')
         
     with col2:
-        RPDE = st.text_input('RPDE')
+        RPDE = st.number_input('RPDE')
         
     with col3:
-        DFA = st.text_input('DFA')
+        DFA = st.number_input('DFA')
         
     with col4:
-        spread1 = st.text_input('spread1')
+        spread1 = st.number_input('spread1')
         
     with col5:
-        spread2 = st.text_input('spread2')
+        spread2 = st.number_input('spread2')
         
     with col1:
-        D2 = st.text_input('D2')
+        D2 = st.number_input('D2')
         
     with col2:
-        PPE = st.text_input('PPE')
+        PPE = st.number_input('PPE')
         
     
     
